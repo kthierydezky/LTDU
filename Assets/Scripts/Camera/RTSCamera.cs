@@ -84,10 +84,9 @@ public class RTSCamera : MonoBehaviour {
             cameraGO.transform.Translate(new Vector3(0.0f, -Input.mouseScrollDelta.y * wheelSpeed * Time.deltaTime, 0.0f) );
             cameraGO.transform.localPosition = new Vector3(0.0f, Mathf.Clamp(cameraGO.transform.position.y, zMapLimit.x, zMapLimit.y), 0.0f);
         }
+        //Camera Orientation
         float calc = (cameraGO.transform.position.y - zMapLimit.x) / (zMapLimit.y - zMapLimit.x);
-        
         float cAngle = (calc * (cameraAngleLimit.y - cameraAngleLimit.x)) + cameraAngleLimit.x;
-        Debug.Log(cAngle);
         cameraGO.transform.localEulerAngles = new Vector3(cAngle, 0f, 0f);
     }
 }
