@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: 12e38da9ef27b0a4c8cc4919b3210ae7
+timeCreated: 1447155429
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: BlizRibbon01
+    100002: Bone_Cape01
+    100004: Bone_Cape02
+    100006: Bone_Cape03
+    100008: Bone_Cape04
+    100010: Bone_Cape05
+    100012: Bone_Cape06
+    100014: Bone_Cape07
+    100016: Bone_Cape08
+    100018: Bone_Chest
+    100020: Bone_Head
+    100022: Chest Ref
+    100024: Collision Sphere01
+    100026: Collision Sphere02
+    100028: 'Foot Left Ref '
+    100030: 'Foot Right Ref '
+    100032: FootL
+    100034: FootR
+    100036: Hammer
+    100038: 'Hand Left Ref '
+    100040: 'Hand Right Ref '
+    100042: HandL
+    100044: HandR
+    100046: Head Ref
+    100048: hero04
+    100050: hero05
+    100052: hero06
+    100054: hero07
+    100056: hero08
+    100058: hero09
+    100060: hero10
+    100062: hero2
+    100064: //RootNode
+    100066: LowArmL
+    100068: LowArmR
+    100070: LowerLegL
+    100072: LowerLegR
+    100074: Obj:FPTxFBL1
+    100076: Obj:FPTxFBR1
+    100078: Obj:SNDxDDSH
+    100080: Obj:SNDXDPAL
+    100082: Obj:SNDXKPL1
+    100084: Obj:SNDXKPL2
+    100086: Obj:SPLxHBL1
+    100088: Obj:SPLxHBL2
+    100090: Obj:SPLxHBS0
+    100092: Obj:SPLxHBS1
+    100094: Obj:SPLxHBS3
+    100096: Object001
+    100098: Object002
+    100100: Object003
+    100102: Object004
+    100104: Object005
+    100106: Object006
+    100108: Object007
+    100110: Object008
+    100112: Object009
+    100114: 'Origin Ref '
+    100116: 'OverHead Ref '
+    100118: Pelvis
+    100120: Root
+    100122: ShoulderL
+    100124: ShoulderR
+    100126: UpArmL
+    100128: UpArmR
+    100130: UpperLegL
+    100132: UpperLegR
+    100134: 'Weapon Ref '
+    400000: BlizRibbon01
+    400002: Bone_Cape01
+    400004: Bone_Cape02
+    400006: Bone_Cape03
+    400008: Bone_Cape04
+    400010: Bone_Cape05
+    400012: Bone_Cape06
+    400014: Bone_Cape07
+    400016: Bone_Cape08
+    400018: Bone_Chest
+    400020: Bone_Head
+    400022: Chest Ref
+    400024: Collision Sphere01
+    400026: Collision Sphere02
+    400028: 'Foot Left Ref '
+    400030: 'Foot Right Ref '
+    400032: FootL
+    400034: FootR
+    400036: Hammer
+    400038: 'Hand Left Ref '
+    400040: 'Hand Right Ref '
+    400042: HandL
+    400044: HandR
+    400046: Head Ref
+    400048: hero04
+    400050: hero05
+    400052: hero06
+    400054: hero07
+    400056: hero08
+    400058: hero09
+    400060: hero10
+    400062: hero2
+    400064: //RootNode
+    400066: LowArmL
+    400068: LowArmR
+    400070: LowerLegL
+    400072: LowerLegR
+    400074: Obj:FPTxFBL1
+    400076: Obj:FPTxFBR1
+    400078: Obj:SNDxDDSH
+    400080: Obj:SNDXDPAL
+    400082: Obj:SNDXKPL1
+    400084: Obj:SNDXKPL2
+    400086: Obj:SPLxHBL1
+    400088: Obj:SPLxHBL2
+    400090: Obj:SPLxHBS0
+    400092: Obj:SPLxHBS1
+    400094: Obj:SPLxHBS3
+    400096: Object001
+    400098: Object002
+    400100: Object003
+    400102: Object004
+    400104: Object005
+    400106: Object006
+    400108: Object007
+    400110: Object008
+    400112: Object009
+    400114: 'Origin Ref '
+    400116: 'OverHead Ref '
+    400118: Pelvis
+    400120: Root
+    400122: ShoulderL
+    400124: ShoulderR
+    400126: UpArmL
+    400128: UpArmR
+    400130: UpperLegL
+    400132: UpperLegR
+    400134: 'Weapon Ref '
+    4300000: Object001
+    4300002: Object002
+    4300004: Object003
+    4300006: Object004
+    4300008: Object005
+    4300010: Object006
+    4300012: Object007
+    4300014: Object008
+    4300016: Object009
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Object001
+    13700002: Object002
+    13700004: Object003
+    13700006: Object004
+    13700008: Object005
+    13700010: Object006
+    13700012: Object007
+    13700014: Object008
+    13700016: Object009
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
