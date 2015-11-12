@@ -1,14 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Creep : MonoBehaviour {
+public class Creep : Units
+{
 
     public Transform roadTarget;
     NavMeshAgent agent;
 
 
 
-    public float attackRange = 1.0f;
+    public float attackRange = 7.0f;
 
 
     private int actualRoadPoint = 0;
@@ -20,10 +21,22 @@ public class Creep : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if(roadTarget != null)
+        if(inRangeUnits.Count != 0)
         {
-            agent.SetDestination(roadTarget.GetChild(actualRoadPoint).transform.position);
-            
+            if(Vector3.Distance(gameObject.transform.position, inRangeUnits[0].transform.position) >= attackRange)
+            {
+                agent.SetDestination(inRangeUnits[0].transform.position);
+            }else{
+                agent.Stop();
+            }
+        }
+        else
+        {
+            if (roadTarget != null)
+            {
+                agent.SetDestination(roadTarget.GetChild(actualRoadPoint).transform.position);
+
+            }
         }
 	}
 
@@ -34,6 +47,31 @@ public class Creep : MonoBehaviour {
             if (actualRoadPoint < (roadTarget.childCount - 1))
             {
                 actualRoadPoint++;
+            }
+        }
+    }
+
+    override public void UnitDetectionEnter(Collider other)
+    {
+        if(other.tag == "Tower" || other.tag == "Builder" || other.tag == "King")
+        {
+            Units temp = other.gameObject.GetComponent<Units>();
+            if (temp != null)
+            {
+                inRangeUnits.Add(temp);
+            }
+        }
+    }
+
+
+    override public void UnitDetectionExit(Collider other)
+    {
+        if (other.tag == "Tower" || other.tag == "Builder" || other.tag == "King")
+        {
+            Units temp = other.GetComponent<Units>();
+            if (inRangeUnits.Contains(temp))
+            {
+                inRangeUnits.Remove(temp);
             }
         }
     }

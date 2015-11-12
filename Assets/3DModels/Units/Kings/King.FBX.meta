@@ -150,7 +150,20 @@ ModelImporter:
     4300012: Object007
     4300014: Object008
     4300016: Object009
-    7400000: Take 001
+    7400000: Base
+    7400002: Stand - 1
+    7400004: Stand - 2
+    7400006: Stand Ready
+    7400008: Attack - 1
+    7400010: Attack - 2
+    7400012: Death
+    7400014: Stand Victory
+    7400016: Spell
+    7400018: Stand Channel
+    7400020: Dissipate
+    7400022: Walk
+    7400024: Stand Fith
+    7400026: Stand Fourth
     9500000: //RootNode
     13700000: Object001
     13700002: Object002
@@ -174,13 +187,2281 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 0
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Base
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: hero2
+        weight: 1
+      - path: hero04
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDxDDSH
+        weight: 1
+      - path: Obj:SNDXDPAL
+        weight: 1
+      - path: Obj:SNDXKPL1
+        weight: 1
+      - path: Obj:SNDXKPL2
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBL2
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS1
+        weight: 1
+      - path: Obj:SPLxHBS3
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: Object007
+        weight: 1
+      - path: Object008
+        weight: 1
+      - path: Object009
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Bone_Chest
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06/Bone_Cape07
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05/Bone_Cape08
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head/Head Ref
+        weight: 1
+      - path: Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL/Hand Left Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/BlizRibbon01
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hammer
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hand Right Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero05
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero06
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero07
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero08
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero09
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero10
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Weapon Ref '
+        weight: 1
+      - path: Root/Pelvis
+        weight: 1
+      - path: Root/Pelvis/UpperLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL/FootL
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegL/LowerLegL/FootL/Foot Left Ref '
+        weight: 1
+      - path: Root/Pelvis/UpperLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR/FootR
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegR/LowerLegR/FootR/Foot Right Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand - 1
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: hero2
+        weight: 1
+      - path: hero04
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDxDDSH
+        weight: 1
+      - path: Obj:SNDXDPAL
+        weight: 1
+      - path: Obj:SNDXKPL1
+        weight: 1
+      - path: Obj:SNDXKPL2
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBL2
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS1
+        weight: 1
+      - path: Obj:SPLxHBS3
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: Object007
+        weight: 1
+      - path: Object008
+        weight: 1
+      - path: Object009
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Bone_Chest
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06/Bone_Cape07
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05/Bone_Cape08
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head/Head Ref
+        weight: 1
+      - path: Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL/Hand Left Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/BlizRibbon01
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hammer
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hand Right Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero05
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero06
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero07
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero08
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero09
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero10
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Weapon Ref '
+        weight: 1
+      - path: Root/Pelvis
+        weight: 1
+      - path: Root/Pelvis/UpperLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL/FootL
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegL/LowerLegL/FootL/Foot Left Ref '
+        weight: 1
+      - path: Root/Pelvis/UpperLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR/FootR
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegR/LowerLegR/FootR/Foot Right Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand - 2
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 350
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: hero2
+        weight: 1
+      - path: hero04
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDxDDSH
+        weight: 1
+      - path: Obj:SNDXDPAL
+        weight: 1
+      - path: Obj:SNDXKPL1
+        weight: 1
+      - path: Obj:SNDXKPL2
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBL2
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS1
+        weight: 1
+      - path: Obj:SPLxHBS3
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: Object007
+        weight: 1
+      - path: Object008
+        weight: 1
+      - path: Object009
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Bone_Chest
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06/Bone_Cape07
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05/Bone_Cape08
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head/Head Ref
+        weight: 1
+      - path: Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL/Hand Left Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/BlizRibbon01
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hammer
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hand Right Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero05
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero06
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero07
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero08
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero09
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero10
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Weapon Ref '
+        weight: 1
+      - path: Root/Pelvis
+        weight: 1
+      - path: Root/Pelvis/UpperLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL/FootL
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegL/LowerLegL/FootL/Foot Left Ref '
+        weight: 1
+      - path: Root/Pelvis/UpperLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR/FootR
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegR/LowerLegR/FootR/Foot Right Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand Ready
+      takeName: Take 001
+      firstFrame: 370
+      lastFrame: 400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: hero2
+        weight: 1
+      - path: hero04
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDxDDSH
+        weight: 1
+      - path: Obj:SNDXDPAL
+        weight: 1
+      - path: Obj:SNDXKPL1
+        weight: 1
+      - path: Obj:SNDXKPL2
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBL2
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS1
+        weight: 1
+      - path: Obj:SPLxHBS3
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: Object007
+        weight: 1
+      - path: Object008
+        weight: 1
+      - path: Object009
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Bone_Chest
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06/Bone_Cape07
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05/Bone_Cape08
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head/Head Ref
+        weight: 1
+      - path: Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL/Hand Left Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/BlizRibbon01
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hammer
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hand Right Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero05
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero06
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero07
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero08
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero09
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero10
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Weapon Ref '
+        weight: 1
+      - path: Root/Pelvis
+        weight: 1
+      - path: Root/Pelvis/UpperLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL/FootL
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegL/LowerLegL/FootL/Foot Left Ref '
+        weight: 1
+      - path: Root/Pelvis/UpperLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR/FootR
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegR/LowerLegR/FootR/Foot Right Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack - 1
+      takeName: Take 001
+      firstFrame: 420
+      lastFrame: 450
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: hero2
+        weight: 1
+      - path: hero04
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDxDDSH
+        weight: 1
+      - path: Obj:SNDXDPAL
+        weight: 1
+      - path: Obj:SNDXKPL1
+        weight: 1
+      - path: Obj:SNDXKPL2
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBL2
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS1
+        weight: 1
+      - path: Obj:SPLxHBS3
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: Object007
+        weight: 1
+      - path: Object008
+        weight: 1
+      - path: Object009
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Bone_Chest
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06/Bone_Cape07
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05/Bone_Cape08
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head/Head Ref
+        weight: 1
+      - path: Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL/Hand Left Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/BlizRibbon01
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hammer
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hand Right Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero05
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero06
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero07
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero08
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero09
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero10
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Weapon Ref '
+        weight: 1
+      - path: Root/Pelvis
+        weight: 1
+      - path: Root/Pelvis/UpperLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL/FootL
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegL/LowerLegL/FootL/Foot Left Ref '
+        weight: 1
+      - path: Root/Pelvis/UpperLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR/FootR
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegR/LowerLegR/FootR/Foot Right Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack - 2
+      takeName: Take 001
+      firstFrame: 470
+      lastFrame: 505
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: hero2
+        weight: 1
+      - path: hero04
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDxDDSH
+        weight: 1
+      - path: Obj:SNDXDPAL
+        weight: 1
+      - path: Obj:SNDXKPL1
+        weight: 1
+      - path: Obj:SNDXKPL2
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBL2
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS1
+        weight: 1
+      - path: Obj:SPLxHBS3
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: Object007
+        weight: 1
+      - path: Object008
+        weight: 1
+      - path: Object009
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Bone_Chest
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06/Bone_Cape07
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05/Bone_Cape08
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head/Head Ref
+        weight: 1
+      - path: Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL/Hand Left Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/BlizRibbon01
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hammer
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hand Right Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero05
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero06
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero07
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero08
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero09
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero10
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Weapon Ref '
+        weight: 1
+      - path: Root/Pelvis
+        weight: 1
+      - path: Root/Pelvis/UpperLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL/FootL
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegL/LowerLegL/FootL/Foot Left Ref '
+        weight: 1
+      - path: Root/Pelvis/UpperLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR/FootR
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegR/LowerLegR/FootR/Foot Right Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 525
+      lastFrame: 570
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: hero2
+        weight: 1
+      - path: hero04
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDxDDSH
+        weight: 1
+      - path: Obj:SNDXDPAL
+        weight: 1
+      - path: Obj:SNDXKPL1
+        weight: 1
+      - path: Obj:SNDXKPL2
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBL2
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS1
+        weight: 1
+      - path: Obj:SPLxHBS3
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: Object007
+        weight: 1
+      - path: Object008
+        weight: 1
+      - path: Object009
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Bone_Chest
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06/Bone_Cape07
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05/Bone_Cape08
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head/Head Ref
+        weight: 1
+      - path: Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL/Hand Left Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/BlizRibbon01
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hammer
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hand Right Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero05
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero06
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero07
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero08
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero09
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero10
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Weapon Ref '
+        weight: 1
+      - path: Root/Pelvis
+        weight: 1
+      - path: Root/Pelvis/UpperLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL/FootL
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegL/LowerLegL/FootL/Foot Left Ref '
+        weight: 1
+      - path: Root/Pelvis/UpperLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR/FootR
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegR/LowerLegR/FootR/Foot Right Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand Victory
+      takeName: Take 001
+      firstFrame: 590
+      lastFrame: 670
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: hero2
+        weight: 1
+      - path: hero04
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDxDDSH
+        weight: 1
+      - path: Obj:SNDXDPAL
+        weight: 1
+      - path: Obj:SNDXKPL1
+        weight: 1
+      - path: Obj:SNDXKPL2
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBL2
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS1
+        weight: 1
+      - path: Obj:SPLxHBS3
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: Object007
+        weight: 1
+      - path: Object008
+        weight: 1
+      - path: Object009
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Bone_Chest
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06/Bone_Cape07
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05/Bone_Cape08
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head/Head Ref
+        weight: 1
+      - path: Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL/Hand Left Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/BlizRibbon01
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hammer
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hand Right Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero05
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero06
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero07
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero08
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero09
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero10
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Weapon Ref '
+        weight: 1
+      - path: Root/Pelvis
+        weight: 1
+      - path: Root/Pelvis/UpperLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL/FootL
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegL/LowerLegL/FootL/Foot Left Ref '
+        weight: 1
+      - path: Root/Pelvis/UpperLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR/FootR
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegR/LowerLegR/FootR/Foot Right Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Spell
+      takeName: Take 001
+      firstFrame: 690
+      lastFrame: 755
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: hero2
+        weight: 1
+      - path: hero04
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDxDDSH
+        weight: 1
+      - path: Obj:SNDXDPAL
+        weight: 1
+      - path: Obj:SNDXKPL1
+        weight: 1
+      - path: Obj:SNDXKPL2
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBL2
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS1
+        weight: 1
+      - path: Obj:SPLxHBS3
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: Object007
+        weight: 1
+      - path: Object008
+        weight: 1
+      - path: Object009
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Bone_Chest
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06/Bone_Cape07
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05/Bone_Cape08
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head/Head Ref
+        weight: 1
+      - path: Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL/Hand Left Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/BlizRibbon01
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hammer
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hand Right Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero05
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero06
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero07
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero08
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero09
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero10
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Weapon Ref '
+        weight: 1
+      - path: Root/Pelvis
+        weight: 1
+      - path: Root/Pelvis/UpperLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL/FootL
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegL/LowerLegL/FootL/Foot Left Ref '
+        weight: 1
+      - path: Root/Pelvis/UpperLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR/FootR
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegR/LowerLegR/FootR/Foot Right Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand Channel
+      takeName: Take 001
+      firstFrame: 775
+      lastFrame: 825
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: hero2
+        weight: 1
+      - path: hero04
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDxDDSH
+        weight: 1
+      - path: Obj:SNDXDPAL
+        weight: 1
+      - path: Obj:SNDXKPL1
+        weight: 1
+      - path: Obj:SNDXKPL2
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBL2
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS1
+        weight: 1
+      - path: Obj:SPLxHBS3
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: Object007
+        weight: 1
+      - path: Object008
+        weight: 1
+      - path: Object009
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Bone_Chest
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06/Bone_Cape07
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05/Bone_Cape08
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head/Head Ref
+        weight: 1
+      - path: Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL/Hand Left Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/BlizRibbon01
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hammer
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hand Right Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero05
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero06
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero07
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero08
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero09
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero10
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Weapon Ref '
+        weight: 1
+      - path: Root/Pelvis
+        weight: 1
+      - path: Root/Pelvis/UpperLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL/FootL
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegL/LowerLegL/FootL/Foot Left Ref '
+        weight: 1
+      - path: Root/Pelvis/UpperLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR/FootR
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegR/LowerLegR/FootR/Foot Right Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dissipate
+      takeName: Take 001
+      firstFrame: 845
+      lastFrame: 905
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: hero2
+        weight: 1
+      - path: hero04
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDxDDSH
+        weight: 1
+      - path: Obj:SNDXDPAL
+        weight: 1
+      - path: Obj:SNDXKPL1
+        weight: 1
+      - path: Obj:SNDXKPL2
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBL2
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS1
+        weight: 1
+      - path: Obj:SPLxHBS3
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: Object007
+        weight: 1
+      - path: Object008
+        weight: 1
+      - path: Object009
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Bone_Chest
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06/Bone_Cape07
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05/Bone_Cape08
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head/Head Ref
+        weight: 1
+      - path: Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL/Hand Left Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/BlizRibbon01
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hammer
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hand Right Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero05
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero06
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero07
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero08
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero09
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero10
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Weapon Ref '
+        weight: 1
+      - path: Root/Pelvis
+        weight: 1
+      - path: Root/Pelvis/UpperLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL/FootL
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegL/LowerLegL/FootL/Foot Left Ref '
+        weight: 1
+      - path: Root/Pelvis/UpperLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR/FootR
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegR/LowerLegR/FootR/Foot Right Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 925
+      lastFrame: 948
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: hero2
+        weight: 1
+      - path: hero04
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDxDDSH
+        weight: 1
+      - path: Obj:SNDXDPAL
+        weight: 1
+      - path: Obj:SNDXKPL1
+        weight: 1
+      - path: Obj:SNDXKPL2
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBL2
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS1
+        weight: 1
+      - path: Obj:SPLxHBS3
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: Object007
+        weight: 1
+      - path: Object008
+        weight: 1
+      - path: Object009
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Bone_Chest
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06/Bone_Cape07
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05/Bone_Cape08
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head/Head Ref
+        weight: 1
+      - path: Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL/Hand Left Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/BlizRibbon01
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hammer
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hand Right Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero05
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero06
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero07
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero08
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero09
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero10
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Weapon Ref '
+        weight: 1
+      - path: Root/Pelvis
+        weight: 1
+      - path: Root/Pelvis/UpperLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL/FootL
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegL/LowerLegL/FootL/Foot Left Ref '
+        weight: 1
+      - path: Root/Pelvis/UpperLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR/FootR
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegR/LowerLegR/FootR/Foot Right Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand Fith
+      takeName: Take 001
+      firstFrame: 968
+      lastFrame: 1168
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: hero2
+        weight: 1
+      - path: hero04
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDxDDSH
+        weight: 1
+      - path: Obj:SNDXDPAL
+        weight: 1
+      - path: Obj:SNDXKPL1
+        weight: 1
+      - path: Obj:SNDXKPL2
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBL2
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS1
+        weight: 1
+      - path: Obj:SPLxHBS3
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: Object007
+        weight: 1
+      - path: Object008
+        weight: 1
+      - path: Object009
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Bone_Chest
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06/Bone_Cape07
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05/Bone_Cape08
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head/Head Ref
+        weight: 1
+      - path: Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL/Hand Left Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/BlizRibbon01
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hammer
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hand Right Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero05
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero06
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero07
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero08
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero09
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero10
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Weapon Ref '
+        weight: 1
+      - path: Root/Pelvis
+        weight: 1
+      - path: Root/Pelvis/UpperLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL/FootL
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegL/LowerLegL/FootL/Foot Left Ref '
+        weight: 1
+      - path: Root/Pelvis/UpperLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR/FootR
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegR/LowerLegR/FootR/Foot Right Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand Fourth
+      takeName: Take 001
+      firstFrame: 1188
+      lastFrame: 1288
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: hero2
+        weight: 1
+      - path: hero04
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDxDDSH
+        weight: 1
+      - path: Obj:SNDXDPAL
+        weight: 1
+      - path: Obj:SNDXKPL1
+        weight: 1
+      - path: Obj:SNDXKPL2
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBL2
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS1
+        weight: 1
+      - path: Obj:SPLxHBS3
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: Object007
+        weight: 1
+      - path: Object008
+        weight: 1
+      - path: Object009
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Bone_Chest
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape03/Bone_Cape06/Bone_Cape07
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Cape01/Bone_Cape02/Bone_Cape04/Bone_Cape05/Bone_Cape08
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Root/Bone_Chest/Bone_Head/Head Ref
+        weight: 1
+      - path: Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderL/UpArmL/LowArmL/HandL/Hand Left Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/BlizRibbon01
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hammer
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Hand Right Ref '
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero05
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero06
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero07
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero08
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero09
+        weight: 1
+      - path: Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/hero10
+        weight: 1
+      - path: 'Root/Bone_Chest/ShoulderR/UpArmR/LowArmR/HandR/Weapon Ref '
+        weight: 1
+      - path: Root/Pelvis
+        weight: 1
+      - path: Root/Pelvis/UpperLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL
+        weight: 1
+      - path: Root/Pelvis/UpperLegL/LowerLegL/FootL
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegL/LowerLegL/FootL/Foot Left Ref '
+        weight: 1
+      - path: Root/Pelvis/UpperLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR
+        weight: 1
+      - path: Root/Pelvis/UpperLegR/LowerLegR/FootR
+        weight: 1
+      - path: 'Root/Pelvis/UpperLegR/LowerLegR/FootR/Foot Right Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
