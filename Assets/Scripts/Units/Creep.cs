@@ -5,44 +5,50 @@ public class Creep : Units
 {
 
     public Transform roadTarget;
-    NavMeshAgent agent;
 
 
 
-    public float attackRange = 7.0f;
 
 
     private int actualRoadPoint = 0;
 
-	// Use this for initialization
-	void Start () {
-        agent = GetComponent<NavMeshAgent>();
-    }
-	
 	// Update is called once per frame
 	void Update () {
         if(inRangeUnits.Count != 0)
         {
-            if(Vector3.Distance(gameObject.transform.position, inRangeUnits[0].transform.position) >= attackRange)
+            if(Vector3.Distance(gameObject.transform.position, inRangeUnits[0].transform.position) >= range)
             {
                 agent.SetDestination(inRangeUnits[0].transform.position);
-            }else{
+                if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Walk"))
+                {
+                    animator.SetTrigger("Walk");
+                }
+            }
+            else{
+                if (!(animator.GetCurrentAnimatorStateInfo(0).IsName("Attack") || animator.GetCurrentAnimatorStateInfo(0).IsName("StandReady")))
+                {
+                    animator.SetTrigger("Attack");
+                }
                 agent.Stop();
+            }
+        }
+        else if (roadTarget != null)
+        {
+            agent.SetDestination(roadTarget.GetChild(actualRoadPoint).transform.position);
+            if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Walk"))
+            {
+                animator.SetTrigger("Walk");
             }
         }
         else
         {
-            if (roadTarget != null)
-            {
-                agent.SetDestination(roadTarget.GetChild(actualRoadPoint).transform.position);
-
-            }
+            Debug.Log("No destination and no aggro");
         }
 	}
 
     void LateUpdate()
     {
-        if (Vector3.Distance(gameObject.transform.position, roadTarget.GetChild(actualRoadPoint).transform.position) < attackRange)
+        if (Vector3.Distance(gameObject.transform.position, roadTarget.GetChild(actualRoadPoint).transform.position) < range)
         {
             if (actualRoadPoint < (roadTarget.childCount - 1))
             {

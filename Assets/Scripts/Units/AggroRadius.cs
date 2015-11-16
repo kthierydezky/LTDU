@@ -3,15 +3,20 @@ using System.Collections;
 
 public class AggroRadius : MonoBehaviour {
     public Units motherUnits;
-	// Use this for initialization
-	void Start () {
-        Debug.Log("Start");
-	}
+
+    private SphereCollider sCollider;
+
 	
 	// Update is called once per frame
 	void Update () {
 	
 	}
+
+    public void Init(float s)
+    {
+        sCollider = gameObject.GetComponent<SphereCollider>();
+        sCollider.radius = s;
+    }
 
     void OnTriggerEnter(Collider other)
     {
