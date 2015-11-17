@@ -1512,12 +1512,13 @@ MonoBehaviour:
     maxHitPoint: 34
   at: 5
   dt: 1
-  armor: 3
+  armor: 0
   sight: 10
   speed: 1.5
   buildTime: 0
   coolDown: 1
   range: 3
+  attack: {x: 3, y: 4}
   roadTarget: {fileID: 0}
 --- !u!114 &11430376
 MonoBehaviour:

@@ -14,17 +14,20 @@ public class Creep : Units
 
 	// Update is called once per frame
 	void Update () {
-        if(inRangeUnits.Count != 0)
+        if (inRangeUnits.Count != 0)
         {
-            if(Vector3.Distance(gameObject.transform.position, inRangeUnits[0].transform.position) >= range)
+            if (Vector3.Distance(gameObject.transform.position, inRangeUnits[0].transform.position) >= range)
             {
                 agent.SetDestination(inRangeUnits[0].transform.position);
+                agent.Resume();
                 if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Walk"))
                 {
                     animator.SetTrigger("Walk");
+                    
                 }
             }
-            else{
+            else
+            {
                 if (!(animator.GetCurrentAnimatorStateInfo(0).IsName("Attack") || animator.GetCurrentAnimatorStateInfo(0).IsName("StandReady")))
                 {
                     animator.SetTrigger("Attack");
@@ -32,17 +35,21 @@ public class Creep : Units
                 agent.Stop();
             }
         }
-        else if (roadTarget != null)
-        {
-            agent.SetDestination(roadTarget.GetChild(actualRoadPoint).transform.position);
-            if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Walk"))
-            {
-                animator.SetTrigger("Walk");
-            }
-        }
         else
         {
-            Debug.Log("No destination and no aggro");
+            if (roadTarget != null)
+            {
+                agent.SetDestination(roadTarget.GetChild(actualRoadPoint).transform.position);
+                agent.Resume();
+                if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Walk"))
+                {
+                    animator.SetTrigger("Walk");
+                }
+            }
+            else
+            {
+                Debug.Log("No destination and no aggro");
+            }
         }
 	}
 
@@ -81,4 +88,13 @@ public class Creep : Units
             }
         }
     }
+
+    override public void Attack()
+    {
+        if (inRangeUnits.Count != 0) {
+            inRangeUnits[0].TakeDamage(Random.Range((int)attack.x, (int)attack.y),dt);
+        }
+    }
+
+
 }

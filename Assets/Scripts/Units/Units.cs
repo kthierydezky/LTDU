@@ -32,12 +32,13 @@ public class Units : MonoBehaviour {
     public HitPoint hp;
     public ArmorType at;
     public DamageType dt;
-    public float armor;
+    public int armor;
     public float sight;
     public float speed;
     public float buildTime;
     public float coolDown;
     public float range;
+    public Vector2 attack; //x min et y max
 
     protected List<Units> inRangeUnits =new List<Units>();
     protected NavMeshAgent agent;
@@ -51,6 +52,7 @@ public class Units : MonoBehaviour {
         animator = GetComponent<Animator>();
         aggroRadius = GetComponentInChildren<AggroRadius>();
         InitStat();
+        InitEventMessenger();
     }
 
     private void InitStat()
@@ -67,9 +69,18 @@ public class Units : MonoBehaviour {
         animator.SetFloat("WalkSpeed", speed);
         agent.speed = speed;
         animator.SetFloat("CoolDownTime", coolDown);
-
-        
     }
+
+    private void InitEventMessenger()
+    {
+        Messenger.AddListener<Units>("UnitDead", OnUnitDead);
+    }
+
+    private void DestroyEventMessenger()
+    {
+        Messenger.RemoveListener<Units>("UnitDead", OnUnitDead);
+    }
+
 
     virtual public void UnitDetectionEnter(Collider other)
     {
@@ -80,17 +91,54 @@ public class Units : MonoBehaviour {
     virtual public void UnitDetectionExit(Collider other) {
 
     }
-    
 
-    private float GetArmorTypeRatio(ArmorType at, DamageType dt)
+
+    private float GetArmorTypeRatio(ArmorType armotype, DamageType damatype)
     {
-        
-        return 0f;
+        return attackDefenceChart[damatype.GetHashCode(), armotype.GetHashCode()];
     }
 
-    public void Attack()
+    private float GetArmorReduction()
     {
-        Debug.Log("ATTACK !!!!");
+        if(armor >= 0)
+        {
+            return 1-armorDamageReduction[armor + 10];
+        }
+        else
+        {
+            return armorDamageReduction[armor + 10];
+        }
+        
+    }
+
+    virtual public void Attack()
+    {
+        
+    }
+
+    virtual public void OnUnitDead(Units unitDead)
+    {
+        if (inRangeUnits.Contains(unitDead))
+        {
+            inRangeUnits.Remove(unitDead);
+        }
+    }
+
+    public void TakeDamage(int damage,DamageType damageType)
+    {
+        float dtaken = (float)damage * GetArmorReduction() * GetArmorTypeRatio(this.at, damageType);
+        if (!hp.RemoveHitPoint(dtaken))
+        {
+            UnitDead();
+        }
+    }
+
+    public void UnitDead()
+    {
+        GetComponent<CapsuleCollider>().enabled = false;
+        Messenger.Broadcast("UnitDead", this);
+        DestroyEventMessenger();
+        Destroy(gameObject);
     }
 
 }
