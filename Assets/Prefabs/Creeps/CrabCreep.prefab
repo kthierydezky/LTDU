@@ -583,6 +583,7 @@ GameObject:
   - 136: {fileID: 13633440}
   - 195: {fileID: 19533036}
   - 114: {fileID: 11414924}
+  - 208: {fileID: 20864006}
   m_Layer: 0
   m_Name: CrabCreep
   m_TagString: Creep
@@ -1517,7 +1518,7 @@ MonoBehaviour:
   speed: 1.5
   buildTime: 0
   coolDown: 1
-  range: 3
+  range: 1.5
   attack: {x: 3, y: 4}
   roadTarget: {fileID: 0}
 --- !u!114 &11430376
@@ -1708,6 +1709,21 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!208 &20864006
+NavMeshObstacle:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169388}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 1, y: .625, z: 1}
+  m_MoveThreshold: .100000001
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: .25, z: 0}
+  m_TimeToStationary: .5
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

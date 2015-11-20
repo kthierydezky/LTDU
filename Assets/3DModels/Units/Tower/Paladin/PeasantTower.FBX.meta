@@ -1,0 +1,3003 @@
+fileFormatVersion: 2
+guid: c4ef2f17429a4be40af4d26b6711566a
+timeCreated: 1447849083
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: AxHandle01
+    100002: Bone_Arm1_L
+    100004: Bone_Arm1_R
+    100006: Bone_Arm2_L
+    100008: Bone_Arm2_R
+    100010: Bone_Chest
+    100012: Bone_Foot_L
+    100014: Bone_Foot_R
+    100016: Bone_Hand_L
+    100018: Bone_Hand_R
+    100020: Bone_Head
+    100022: Bone_Leg1_L
+    100024: Bone_Leg1_R
+    100026: Bone_Leg2_L
+    100028: Bone_Leg2_R
+    100030: Bone_Pelvis
+    100032: Bone_Root
+    100034: Chest Ref
+    100036: Collision Sphere01
+    100038: Collision Sphere02
+    100040: Cylinder02
+    100042: 'Foot Left Ref '
+    100044: 'Foot Right Ref '
+    100046: GoldBag Root
+    100048: gutz00
+    100050: 'Hand Left Ref '
+    100052: 'Hand Right Ref '
+    100054: Head - Ref
+    100056: hide-ax
+    100058: Mesh12
+    100060: Obj:FPTxFBL1
+    100062: Obj:FPTxFBR1
+    100064: Obj:SNDXAREP
+    100066: Obj:SNDXDPES
+    100068: Obj:SPLxHBL1
+    100070: Obj:SPLxHBS0
+    100072: Obj:SPLxHBS2
+    100074: Obj:SPNxHBP0
+    100076: Object001
+    100078: Object002
+    100080: Object003
+    100082: Object004
+    100084: Object005
+    100086: Object006
+    100088: 'Origin Ref '
+    100090: 'OverHead Ref '
+    100092: //RootNode
+    100094: Weapon Ref
+    400000: AxHandle01
+    400002: Bone_Arm1_L
+    400004: Bone_Arm1_R
+    400006: Bone_Arm2_L
+    400008: Bone_Arm2_R
+    400010: Bone_Chest
+    400012: Bone_Foot_L
+    400014: Bone_Foot_R
+    400016: Bone_Hand_L
+    400018: Bone_Hand_R
+    400020: Bone_Head
+    400022: Bone_Leg1_L
+    400024: Bone_Leg1_R
+    400026: Bone_Leg2_L
+    400028: Bone_Leg2_R
+    400030: Bone_Pelvis
+    400032: Bone_Root
+    400034: Chest Ref
+    400036: Collision Sphere01
+    400038: Collision Sphere02
+    400040: Cylinder02
+    400042: 'Foot Left Ref '
+    400044: 'Foot Right Ref '
+    400046: GoldBag Root
+    400048: gutz00
+    400050: 'Hand Left Ref '
+    400052: 'Hand Right Ref '
+    400054: Head - Ref
+    400056: hide-ax
+    400058: Mesh12
+    400060: Obj:FPTxFBL1
+    400062: Obj:FPTxFBR1
+    400064: Obj:SNDXAREP
+    400066: Obj:SNDXDPES
+    400068: Obj:SPLxHBL1
+    400070: Obj:SPLxHBS0
+    400072: Obj:SPLxHBS2
+    400074: Obj:SPNxHBP0
+    400076: Object001
+    400078: Object002
+    400080: Object003
+    400082: Object004
+    400084: Object005
+    400086: Object006
+    400088: 'Origin Ref '
+    400090: 'OverHead Ref '
+    400092: //RootNode
+    400094: Weapon Ref
+    4300000: Object001
+    4300002: Object002
+    4300004: Object003
+    4300006: Object004
+    4300008: Object005
+    4300010: Object006
+    7400000: Stand
+    7400002: Stand - 2
+    7400004: Stand - 3
+    7400006: Stand - 4
+    7400008: Stand Gold
+    7400010: Stand Lumber
+    7400012: Attack
+    7400014: Attack Gold
+    7400016: Attack Lumber
+    7400018: Attack - 2
+    7400020: Walk
+    7400022: Walk Gold
+    7400024: Walk Lumber
+    7400026: Death
+    7400028: Decay Flesh
+    7400030: Decay Bone
+    7400032: Stand Ready
+    7400034: Stand Ready Gold
+    7400036: Stand Ready Lumber
+    7400038: Stand Work
+    7400040: Stand Work Gold
+    7400042: Stand Work Lumber
+    9500000: //RootNode
+    13700000: Object001
+    13700002: Object002
+    13700004: Object003
+    13700006: Object004
+    13700008: Object005
+    13700010: Object006
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Stand
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand - 2
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand - 3
+      takeName: Take 001
+      firstFrame: 170
+      lastFrame: 325
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand - 4
+      takeName: Take 001
+      firstFrame: 345
+      lastFrame: 465
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand Gold
+      takeName: Take 001
+      firstFrame: 485
+      lastFrame: 532
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand Lumber
+      takeName: Take 001
+      firstFrame: 552
+      lastFrame: 599
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 619
+      lastFrame: 649
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .383871078
+        functionName: Attack
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack Gold
+      takeName: Take 001
+      firstFrame: 669
+      lastFrame: 699
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack Lumber
+      takeName: Take 001
+      firstFrame: 719
+      lastFrame: 749
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack - 2
+      takeName: Take 001
+      firstFrame: 769
+      lastFrame: 807
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 827
+      lastFrame: 851
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk Gold
+      takeName: Take 001
+      firstFrame: 871
+      lastFrame: 895
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk Lumber
+      takeName: Take 001
+      firstFrame: 915
+      lastFrame: 939
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 959
+      lastFrame: 1059
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Decay Flesh
+      takeName: Take 001
+      firstFrame: 1079
+      lastFrame: 2879
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Decay Bone
+      takeName: Take 001
+      firstFrame: 2899
+      lastFrame: 4699
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand Ready
+      takeName: Take 001
+      firstFrame: 4719
+      lastFrame: 4764
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand Ready Gold
+      takeName: Take 001
+      firstFrame: 4784
+      lastFrame: 4829
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand Ready Lumber
+      takeName: Take 001
+      firstFrame: 4849
+      lastFrame: 4894
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand Work
+      takeName: Take 001
+      firstFrame: 4914
+      lastFrame: 4932
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand Work Gold
+      takeName: Take 001
+      firstFrame: 4952
+      lastFrame: 4970
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand Work Lumber
+      takeName: Take 001
+      firstFrame: 4990
+      lastFrame: 5008
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/AxHandle01/Weapon
+          Ref
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/Hand Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/Hand Right
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Head - Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Chest Ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02
+        weight: 1
+      - path: Bone_Root/Bone_Chest/GoldBag Root/Cylinder02/Mesh12
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/Foot Left
+          Ref '
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: 'Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/Foot Right
+          Ref '
+        weight: 1
+      - path: Collision Sphere01
+        weight: 1
+      - path: Collision Sphere02
+        weight: 1
+      - path: gutz00
+        weight: 1
+      - path: hide-ax
+        weight: 1
+      - path: Obj:FPTxFBL1
+        weight: 1
+      - path: Obj:FPTxFBR1
+        weight: 1
+      - path: Obj:SNDXAREP
+        weight: 1
+      - path: Obj:SNDXDPES
+        weight: 1
+      - path: Obj:SPLxHBL1
+        weight: 1
+      - path: Obj:SPLxHBS0
+        weight: 1
+      - path: Obj:SPLxHBS2
+        weight: 1
+      - path: Obj:SPNxHBP0
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      - path: 'OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

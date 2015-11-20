@@ -39,4 +39,17 @@ public class WaveControler : MonoBehaviour {
             StartCoroutine(SpawnAndWait());
         }
     }
+
+    public void Update()
+    {
+        if (Input.GetKey(KeyCode.KeypadPlus))
+        {
+            Time.timeScale += 1;
+        }
+
+        if (Input.GetKey(KeyCode.KeypadMinus))
+        {
+            Time.timeScale -= 1;
+        }
+    }
 }

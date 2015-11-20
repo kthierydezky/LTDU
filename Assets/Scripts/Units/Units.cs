@@ -42,13 +42,16 @@ public class Units : MonoBehaviour {
 
     protected List<Units> inRangeUnits =new List<Units>();
     protected NavMeshAgent agent;
+    protected NavMeshObstacle obstacle;
     protected Animator animator;
     protected AggroRadius aggroRadius;
 
 
-    public void Start()
+    virtual public void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        obstacle = GetComponent<NavMeshObstacle>();
+        obstacle.enabled = false;
         animator = GetComponent<Animator>();
         aggroRadius = GetComponentInChildren<AggroRadius>();
         InitStat();
@@ -118,6 +121,7 @@ public class Units : MonoBehaviour {
 
     virtual public void OnUnitDead(Units unitDead)
     {
+        
         if (inRangeUnits.Contains(unitDead))
         {
             inRangeUnits.Remove(unitDead);

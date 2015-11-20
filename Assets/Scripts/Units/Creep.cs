@@ -6,10 +6,6 @@ public class Creep : Units
 
     public Transform roadTarget;
 
-
-
-
-
     private int actualRoadPoint = 0;
 
 	// Update is called once per frame
@@ -18,11 +14,20 @@ public class Creep : Units
         {
             if (Vector3.Distance(gameObject.transform.position, inRangeUnits[0].transform.position) >= range)
             {
+                if (!agent.enabled)
+                {
+                    obstacle.enabled = false;
+                    agent.enabled = true;
+
+                }
                 agent.SetDestination(inRangeUnits[0].transform.position);
-                agent.Resume();
+
                 if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Walk"))
                 {
                     animator.SetTrigger("Walk");
+                    obstacle.enabled = false;
+                    agent.enabled = true;
+                    agent.Resume();
                     
                 }
             }
@@ -31,19 +36,34 @@ public class Creep : Units
                 if (!(animator.GetCurrentAnimatorStateInfo(0).IsName("Attack") || animator.GetCurrentAnimatorStateInfo(0).IsName("StandReady")))
                 {
                     animator.SetTrigger("Attack");
+                    if (agent.enabled) {
+                        agent.Stop();
+                    }
+                    agent.enabled = false;
+                    obstacle.enabled = true;
                 }
-                agent.Stop();
+                
             }
         }
         else
         {
             if (roadTarget != null)
             {
+                if (!agent.enabled)
+                {
+                    obstacle.enabled = false;
+                    agent.enabled = true;
+                }
                 agent.SetDestination(roadTarget.GetChild(actualRoadPoint).transform.position);
-                agent.Resume();
+                
                 if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Walk"))
                 {
+                    obstacle.enabled = false;
+                    agent.enabled = true;
+                    agent.Resume();
                     animator.SetTrigger("Walk");
+                    
+                    
                 }
             }
             else
