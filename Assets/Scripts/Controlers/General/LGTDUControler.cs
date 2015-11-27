@@ -14,6 +14,9 @@ public class LGTDUControler : MonoBehaviour {
 
     /* Prefabs */
     public Transform GameModePickerPrefab;
+    public Transform RaceSelectorsPickerPrefab;
+    public Transform BuildPickerPrefab;
+    public Transform CommonPickerPrefab;
 
     /* Variable de fonctionnement */
     private LGTDUStates actualLGTDUState = LGTDUStates.GameModesPicker;
@@ -22,6 +25,9 @@ public class LGTDUControler : MonoBehaviour {
     private GameObject canvasRef;
     private RTSCamera rtsCamRef;
     private GameModesPicker gmpRef;
+    private RaceSelectorsPicker rspRef;
+    private BuildPicker bpRef;
+    private CommonPicker cpRef;
 
     // Use this for initialization
     void Start () {
@@ -38,11 +44,13 @@ public class LGTDUControler : MonoBehaviour {
     private void InitEventMessenger()
     {
         Messenger.AddListener<GameModesPicker.GameModes, GameOptions>("GameModeSelected", OnGameModeSelected);
+        Messenger.AddListener<RaceSelectorsPicker.RacesSelection>("RaceSelected", OnRaceSelected);
     }
 
     private void DestroyEventMessenger()
     {
         Messenger.RemoveListener<GameModesPicker.GameModes, GameOptions>("GameModeSelected", OnGameModeSelected);
+        Messenger.RemoveListener<RaceSelectorsPicker.RacesSelection>("RaceSelected", OnRaceSelected);
     }
 
     public void ChangeToState(LGTDUStates state)
@@ -55,6 +63,23 @@ public class LGTDUControler : MonoBehaviour {
                 gmpRef.gameObject.transform.SetParent(canvasRef.transform,false);
                 rtsCamRef.SetCamLock(true);
             break;
+            case LGTDUStates.RacesPicker:
+                actualLGTDUState = state;
+                rspRef = ((Transform)Instantiate(RaceSelectorsPickerPrefab)).gameObject.GetComponent<RaceSelectorsPicker>();
+                rspRef.gameObject.transform.SetParent(canvasRef.transform, false);
+                rtsCamRef.SetCamLock(true);
+            break;
+            case LGTDUStates.BuildingTime:
+                actualLGTDUState = state;
+                bpRef = ((Transform)Instantiate(BuildPickerPrefab)).gameObject.GetComponent<BuildPicker>();
+                bpRef.gameObject.transform.SetParent(canvasRef.transform, false);
+                if(cpRef== null)
+                {
+                    cpRef = ((Transform)Instantiate(CommonPickerPrefab)).gameObject.GetComponent<CommonPicker>();
+                    cpRef.gameObject.transform.SetParent(canvasRef.transform, false);
+                }
+                rtsCamRef.SetCamLock(false);
+                break;
         }
     }
 
@@ -64,8 +89,10 @@ public class LGTDUControler : MonoBehaviour {
         ChangeToState(LGTDUStates.RacesPicker);
     }
 
-    // Update is called once per frame
-    void Update () {
-	
-	}
+    public void OnRaceSelected(RaceSelectorsPicker.RacesSelection rc)
+    {
+        Destroy(rspRef.gameObject);
+        ChangeToState(LGTDUStates.BuildingTime);
+    }
+
 }

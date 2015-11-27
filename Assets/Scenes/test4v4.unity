@@ -190,6 +190,10 @@ Prefab:
       propertyPath: m_Name
       value: ArcherTower (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 188856, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
   m_IsPrefabParent: 0
@@ -235,6 +239,10 @@ Prefab:
     - target: {fileID: 450682, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
       propertyPath: m_RootOrder
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 188856, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
@@ -282,11 +290,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 11405320, guid: 87531f9615accf54e855507b88c94990, type: 2}
-      propertyPath: GameModePickerPrefab
-      value: 
-      objectReference: {fileID: 22417832, guid: 841c6782497cc8449b85878fb5be6145,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 87531f9615accf54e855507b88c94990, type: 2}
   m_IsPrefabParent: 0
@@ -621,6 +624,10 @@ Prefab:
       propertyPath: m_Name
       value: PeasantTower (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 188856, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
   m_IsPrefabParent: 0
@@ -670,6 +677,10 @@ Prefab:
     - target: {fileID: 188856, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
       propertyPath: m_Name
       value: PeasantTower (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 188856, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
@@ -809,6 +820,10 @@ Prefab:
       propertyPath: m_Name
       value: ArcherTower (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 188856, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
   m_IsPrefabParent: 0
@@ -863,6 +878,10 @@ Prefab:
       propertyPath: m_Name
       value: ArcherTower (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 188856, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
   m_IsPrefabParent: 0
@@ -913,6 +932,10 @@ Prefab:
       propertyPath: m_Name
       value: PeasantTower (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 188856, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
   m_IsPrefabParent: 0
@@ -958,6 +981,10 @@ Prefab:
     - target: {fileID: 188856, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
       propertyPath: m_Name
       value: PeasantTower (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 188856, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
@@ -1062,6 +1089,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 188856, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
   m_IsPrefabParent: 0
@@ -1112,6 +1143,10 @@ Prefab:
       propertyPath: m_Name
       value: ArcherTower (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 188856, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
   m_IsPrefabParent: 0
@@ -1161,6 +1196,10 @@ Prefab:
     - target: {fileID: 188856, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
       propertyPath: m_Name
       value: PeasantTower (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 188856, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
@@ -1292,6 +1331,10 @@ Prefab:
     - target: {fileID: 188856, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
       propertyPath: m_Name
       value: ArcherTower (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 188856, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
@@ -1460,6 +1503,10 @@ Prefab:
       propertyPath: m_Name
       value: PeasantTower (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 188856, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
   m_IsPrefabParent: 0
@@ -1598,6 +1645,10 @@ Prefab:
       propertyPath: m_Name
       value: PeasantTower (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 188856, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
   m_IsPrefabParent: 0
@@ -1653,6 +1704,10 @@ Prefab:
     - target: {fileID: 188856, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
       propertyPath: m_Name
       value: PeasantTower (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 188856, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6c71ba23747d8dc4a81e2ed7ba0f282a, type: 2}
@@ -1770,6 +1825,10 @@ Prefab:
       propertyPath: m_Name
       value: ArcherTower (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 188856, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
   m_IsPrefabParent: 0
@@ -1823,6 +1882,10 @@ Prefab:
     - target: {fileID: 188856, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
       propertyPath: m_Name
       value: ArcherTower (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 188856, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
@@ -1943,6 +2006,10 @@ Prefab:
     - target: {fileID: 188856, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
       propertyPath: m_Name
       value: ArcherTower (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 188856, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55339ed7516c4944da44193bb915ab6a, type: 2}

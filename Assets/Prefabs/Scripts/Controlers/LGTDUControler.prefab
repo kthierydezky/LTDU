@@ -39,6 +39,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71fdba1d74c16924aa492e4893521147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameModePickerPrefab: {fileID: 22417832, guid: 841c6782497cc8449b85878fb5be6145,
+    type: 2}
+  RaceSelectorsPickerPrefab: {fileID: 22488588, guid: 74f7b1e270c56684e916de513e20e31b,
+    type: 2}
+  BuildPickerPrefab: {fileID: 22456970, guid: e0438d35508bd0d46947bf80532dac3e, type: 2}
+  CommonPickerPrefab: {fileID: 22484756, guid: 1e2bc0d7038e3f243a81e8cfa3dd6bcb, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
